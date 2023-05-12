@@ -1,7 +1,7 @@
 name = "NeuralOperators"
 uuid = "ea5c82af-86e5-48da-8ee1-382d6ad7af4b"
 authors = ["JingYu Ning <foldfelis@gmail.com> and contributors"]
-version = "0.3.3"
+version = "0.4.5"
 
 [deps]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
@@ -16,12 +16,12 @@ Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 [compat]
-CUDA = "3.9"
+CUDA = "3"
 CUDAKernels = "0.3, 0.4"
-ChainRulesCore = "1.14"
-FFTW = "1.4"
+ChainRulesCore = "1"
+FFTW = "1"
 Flux = "0.13"
-GeometricFlux = "0.12"
+GeometricFlux = "0.13"
 KernelAbstractions = "0.7, 0.8"
 Tullio = "0.3"
 Zygote = "0.6"
